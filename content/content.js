@@ -1,7 +1,7 @@
 function makeBold() {
   var textNodes = document.querySelectorAll("body *:not(script):not(style)");
 
-  for (var i = 0; i < textNodes.length; i++) {
+  for (var i = 0; i < textNodes.length; i++) {2
     var words = textNodes[i].textContent.split(" ");
 
     for (var j = 0; j < words.length; j++) {
